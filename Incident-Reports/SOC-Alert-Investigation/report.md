@@ -32,3 +32,35 @@ The activity is consistent with a brute-force attack attempt. Recommended action
 * Threat Detection
 * Incident Response
 * SIEM Monitoring
+
+# Incident Report: Brute Force Attack
+
+## 📌 Summary
+
+Multiple failed login attempts were detected from a single IP address.
+
+## 🕒 Timeline
+
+* Repeated login failures observed within short time
+
+## 🔍 Investigation
+
+Logs were analyzed in Kibana.
+The same IP address attempted multiple logins.
+
+## 🌐 Source IP
+
+192.168.1.10
+
+## ⚠️ Findings
+
+This behavior indicates a possible brute force attack.
+
+## ✅ Action Taken
+
+* Alert validated
+* Escalated to Level 2 team
+
+## 📌 Conclusion
+
+The activity was identified as suspicious and required further investigation.
